@@ -12,6 +12,10 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
@@ -35,7 +39,7 @@
             apoi scrollează pentru a vedea vremea din orașul tău.
           </p>
           <p class="text-center fs-5">
-            Orașul tău curent este <strong id="currentCity">Bucureșt</strong>.
+            Orașul tău curent este <strong id="currentCity">București</strong>.
           </p>
           <div class="dropdown d-flex justify-content-center">
             <button
@@ -55,6 +59,10 @@
                 <button class="dropdown-item timisoara">Timișoara</button>
               </li>
               <li><button class="dropdown-item oradea">Oradea</button></li>
+              <li>
+                <button class="dropdown-item constanta">Constanța</button>
+              </li>
+              <li><button class="dropdown-item brasov">Brașov</button></li>
             </ul>
           </div>
         </div>
@@ -73,6 +81,11 @@
           <div class="weather-forecast"></div>
         </div>
       </section>
+      <div class="scroll-to-top">
+        <button>
+          <span class="material-icons"> keyboard_double_arrow_up </span>
+        </button>
+      </div>
     </main>
     <footer class="bg-dark">
       <div class="container">
