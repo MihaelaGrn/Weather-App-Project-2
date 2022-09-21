@@ -1,4 +1,4 @@
-const API_KEY = "5c55761872c8240c69e9dfa521ae6334";
+const API_KEY = "7e2339fa46bca7b4a0a3966cdbd896e5";
 
 function getCurrentWeatherEndpoint(city) {
   return `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric&lang=ro`;
